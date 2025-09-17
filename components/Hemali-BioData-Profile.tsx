@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 
-export default function BiodataProfile() {
+export default function HemaliBioDataProfile() {
   return (
     <div className="max-w-4xl mx-auto p-2 sm:p-4 md:p-6">
       <div className="border-4 sm:border-8 border-amber-800 bg-white p-4 sm:p-6 md:p-8 relative">
@@ -22,7 +22,7 @@ export default function BiodataProfile() {
           <div className="w-full md:w-1/3 flex justify-center">
             <div className="w-40 rounded-md sm:w-48 md:w-52 h-60 sm:h-72 md:h-80 bg-gray-200 overflow-hidden">
               <Image
-                src="/Profile.jpg"
+                src="/Hemali.jpg"
                 alt="Profile Photo"
                 width={240}
                 height={320}
@@ -33,8 +33,8 @@ export default function BiodataProfile() {
 
           {/* Name and Basic Info */}
           <div className="w-full md:w-2/3 mt-4 md:mt-36 text-center md:text-left">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 md:mb-4 text-gray-800">Kaushal Rathod</h2>
-            <p className="text-lg sm:text-xl mb-1 md:mb-2">Date of Birth : 04 November 2001</p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 md:mb-4 text-gray-800">Hemali Panchal Dineshbhai</h2>
+            <p className="text-lg sm:text-xl mb-1 md:mb-2">Date of Birth : 04 January 1999</p>
             <p className="text-lg sm:text-xl">Place of Birth : Ahmedabad, Gujarat</p>
           </div>
         </div>
@@ -47,8 +47,8 @@ export default function BiodataProfile() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-3 md:gap-y-4">
             <div className="flex flex-col sm:flex-row">
-              <div className="w-full sm:w-1/2 text-gray-800 font-medium">Date of Birth</div>
-              <div className="w-full sm:w-1/2">04 November 2001</div>
+              <div className="w-full sm:w-1/2 text-gray-800 font-bold">Date of Birth</div>
+              <div className="w-full sm:w-1/2">04 January 1999</div>
             </div>
             <div className="flex flex-col sm:flex-row">
               <div className="w-full sm:w-1/2 text-gray-800 font-medium">Time of Birth</div>
@@ -60,7 +60,7 @@ export default function BiodataProfile() {
             </div>
             <div className="flex flex-col sm:flex-row">
               <div className="w-full sm:w-1/2 text-gray-800 font-medium">Rashi</div>
-              <div className="w-full sm:w-1/2">Mithun (Gemini)</div>
+              <div className="w-full sm:w-1/2">Karka (Cancer)</div>
             </div>
             <div className="flex flex-col sm:flex-row">
               <div className="w-full sm:w-1/2 text-gray-800 font-medium">Height</div>
